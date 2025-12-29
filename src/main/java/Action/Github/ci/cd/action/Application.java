@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Application {
 	@GetMapping("/Gulshan")
 	public String welcome(){
-		 return "welcome to my world";
+		 return "welcome to github action ci cd pipeline";
 	}
 
 	public static void main(String[] args) {
